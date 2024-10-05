@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --light-green: #d4e9e2;
+  --dark-green: #1e3932;
+  --normal-green: #00754a;
+  --gold-color: #cba258;
+}
