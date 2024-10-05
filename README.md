@@ -1,8 +1,8 @@
 # Group website Workshop
 
-Each team member should tackle a specific section of the website we are going to build (Header, section 1, section 2, and section 3) 
+Each team member should tackle a specific section of the website we are going to build (Header, section 1, section 2, and section 3)
 
-Start by creating a new branch from the branch of your team (e.j. JUL-2024-1). Name this new branch as the feature you are developing, e.g. header-component, section-1, etc. 
+Start by creating a new branch from the branch of your team (e.j. JUL-2024-1). Name this new branch as the feature you are developing, e.g. header-component, section-1, etc.
 
 In this branch, you will create only the component you are supposed to do inside the index.html file.
 
@@ -24,7 +24,7 @@ Step-by-step process to upload changes to GitHub
 
 ## Instructions
 
-### Preparation.
+### Preparation!
 
 Once you have done the fork, choose a member from your team to create an initial HTML and CSS structure. With this create a PR to your team branch and finally each member should do pull to get those changes.
 
@@ -35,7 +35,7 @@ Once you have done the fork, choose a member from your team to create an initial
 - Once you finish your feature push your changes to Github and then **open a PR against the branch of your team**.
 - In case of having **conflicts** on code, make sure you and your team colleague get together to fix it.
 
-The website that we'll creating is the following one from the [Frontend Practice](https://www.frontendpractice.com/projects/starbucks)  Website:
+The website that we'll creating is the following one from the [Frontend Practice](https://www.frontendpractice.com/projects/starbucks) Website:
 
 ![](./image-instructions/website-project.png)
 
