@@ -9,4 +9,76 @@
   --dark-green: #1e3932;
   --normal-green: #00754a;
   --gold-color: #cba258;
+  --white: #fff;
 }
+
+/* Overall layout adjustments */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+header {
+  background-color: var(--normal-green);
+  border-bottom: 1px solid var(--light-green);
+  padding-bottom: 20px;
+}
+
+/* Home container layout (nav and buttons) */
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Navigation styling */
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  color: var(--white);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.logo-container img {
+  width: 50px; /* Adjust as needed */
+}
+
+/* Button section */
+.button {
+  display: flex;
+  gap: 10px;
+}
+
+.button button {
+  background-color: var(--white);
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+
+/* Heading text section styling (separate row) */
+.heading-text {
+  background-color: var(--dark-green); /* Light green background */
+  padding:20px; /* Padding for spacing */
+  text-align: left; /* Center the text */
+  margin-top: 10px; /* Space above the heading */
+  margin-bottom: 5px;
+}
+
+.heading-text h1 {
+  color: var(--white); /* Dark green text color */
+  font-size: 15px; /* Larger font for emphasis */
+  font-weight: bold; /* Bold text */
+  text-transform: uppercase; /* Uppercase text */
+}
+
