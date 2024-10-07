@@ -19,7 +19,7 @@ body {
 
 /* Header styling */
 header {
-  background-color: var(--normal-green);
+  background-color: var(--white);
   border-bottom: 1px solid var(--light-green);
   padding-bottom: 20px;
 }
@@ -33,6 +33,12 @@ header {
 }
 
 /* Navigation styling */
+nav {
+  display: flex; /* This makes the logo and menu items align horizontally */
+  align-items: center; /* Ensures vertical alignment */
+  gap: 20px;
+}
+
 nav ul {
   list-style-type: none;
   display: flex;
@@ -40,7 +46,7 @@ nav ul {
 }
 
 nav ul li {
-  color: var(--white);
+  color: var(--dark-green);
   font-size: 14px;
   font-weight: bold;
 }
@@ -50,35 +56,53 @@ nav ul li {
 }
 
 /* Button section */
-.button {
-  display: flex;
-  gap: 10px;
+.nav-button {
+  display: flex; /* Flexbox for aligning buttons in a row */
+  gap: 20px; /* Spacing between buttons */
+  align-items: center;
 }
 
-.button button {
-  background-color: var(--white);
-  border: none;
-  padding: 8px 12px;
-  border-radius: 5px;
-  font-size: 14px;
+.nav-button a, 
+.nav-button button {
+  text-decoration: none; /* Remove underline */
+  font-size: 15px;
+  padding: 10px 20px;
+  
   cursor: pointer;
+  text-align: center;
+}
+
+.Sign-in {
+  background-color: var(--white);
+  color: var(--dark-green);
+  border-radius: 30px;
+  border: 2px solid black;
 }
 
 
+.join-Link {
+  background-color: var(--dark-green);
+  color: var(--white);
+  border-radius: 30px;
+  border: 2px solid black;
+}
+
+.join-Link:hover {
+  background-color: var(--light-green);
+}
 
 /* Heading text section styling (separate row) */
 .heading-text {
-  background-color: var(--dark-green); /* Light green background */
-  padding:20px; /* Padding for spacing */
-  text-align: left; /* Center the text */
-  margin-top: 10px; /* Space above the heading */
+  background-color: var(--dark-green); 
+  padding: 20px;
+  text-align: left; 
+  margin-top: 10px; 
   margin-bottom: 5px;
 }
 
 .heading-text h1 {
-  color: var(--white); /* Dark green text color */
-  font-size: 15px; /* Larger font for emphasis */
-  font-weight: bold; /* Bold text */
-  text-transform: uppercase; /* Uppercase text */
+  color: var(--white); 
+  font-size: 15px; 
+  font-weight: bold;
+  text-transform: uppercase; 
 }
-
