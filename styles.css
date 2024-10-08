@@ -8,5 +8,58 @@
   --White: #fff;
   --Dark-Green: hsl(166, 34%, 17%);
   --Green: hsl(157, 90%, 24%);
-  --Black: #333;
+  --Black: #000;
+  --light-green: #c6d6cc;
+}
+.hero-section {
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  background-color: var(--light-green);
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  max-width: 100%;
+  height: 550px;
+  padding-left: 25px;
+}
+.hero-section-image img {
+  display: block;
+  width: 100%;
+  height: 550px;
+  max-width: 980px;
+  object-fit: cover;
+}
+.hero-txt {
+  padding-top: 150px;
+  padding-left: 12px;
+  max-width: 50%;
+  text-align: justify;
+}
+.hero-txt h1 {
+  font-size: 50px;
+}
+.hero-txt h1 span {
+  margin-top: 30px;
+}
+.hero-txt p {
+  font-size: 17px;
+}
+.hero-paragraph {
+  line-height: 2;
+}
+.hero-txt .anchor-1 {
+  text-decoration: none;
+  background-color: var(--Green);
+  color: var(--White);
+  border-radius: 20px;
+  padding: 4px 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.hero-txt a {
+  color: var(--Black);
+  cursor: pointer;
+}
+.hero-txt:hover {
+  transition: 0.3s ease;
 }
