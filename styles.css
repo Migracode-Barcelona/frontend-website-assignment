@@ -105,20 +105,54 @@ nav ul li {
   font-weight: bold;
   text-transform: uppercase; 
 }
-.options {display: flex;
-          justify-content: center;
-          flex-wrap: wrap;
-         }
-.options article h3{text-align: center;}
-.options article p {text-align: center;}
+.options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%; 
+}
 
-.options article {justify-content: center;
-                  margin: 10px 35px 10px;
-                  width: 30%;}
-.options article img {width: 48px;
-                      height: 48px;
-                      margin: 10px 30%;}
+.intro {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 80px;
+  width: 100%;
+}
 
-.options article:first-child {justify-self: center;
-                              margin: 10px 45%;
-                              width: 100%;}
+.intro p {
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 1.2rem ;
+}
+
+.options article:not(.intro)  {
+  flex: 1;
+  max-width: 350px;
+  
+  text-align: center;
+  margin: 0 20px; 
+  margin-top: 20px; 
+}
+
+.options a {
+  color: #006241;;
+}
+.options article img {
+  width: 48px;
+  height: 48px;
+  margin: 10px auto;
+  display: block;
+}
+
+.options article h3 {
+  margin: 10px 0;
+}
+
+.options article p {
+  font-size: 1.2rem ;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
