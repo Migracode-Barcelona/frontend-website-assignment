@@ -9,6 +9,101 @@
   --dark-green: #1e3932;
   --normal-green: #00754a;
   --gold-color: #cba258;
+  --white: #fff;
+}
+
+/* Overall layout adjustments */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+header {
+  background-color: var(--white);
+  border-bottom: 1px solid var(--light-green);
+  padding-bottom: 20px;
+}
+
+/* Home container layout (nav and buttons) */
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Navigation styling */
+nav {
+  display: flex; /* This makes the logo and menu items align horizontally */
+  align-items: center; /* Ensures vertical alignment */
+  gap: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  color: var(--dark-green);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.logo-container img {
+  width: 50px; /* Adjust as needed */
+}
+
+/* Button section */
+.nav-button {
+  display: flex; /* Flexbox for aligning buttons in a row */
+  gap: 20px; /* Spacing between buttons */
+  align-items: center;
+}
+
+.nav-button a, 
+.nav-button button {
+  text-decoration: none; /* Remove underline */
+  font-size: 15px;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.Sign-in {
+  background-color: var(--white);
+  color: var(--dark-green);
+  border-radius: 30px;
+  border: 2px solid black;
+}
+
+
+.join-Link {
+  background-color: var(--dark-green);
+  color: var(--white);
+  border-radius: 30px;
+  border: 2px solid black;
+}
+
+.join-Link:hover {
+  background-color: var(--light-green);
+}
+
+/* Heading text section styling (separate row) */
+.heading-text {
+  background-color: var(--dark-green); 
+  padding: 20px;
+  text-align: left; 
+  margin-top: 10px; 
+  margin-bottom: 5px;
+}
+
+.heading-text h1 {
+  color: var(--white); 
+  font-size: 15px; 
+  font-weight: bold;
+  text-transform: uppercase; 
 }
 .options {display: flex;
           justify-content: center;
