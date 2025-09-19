@@ -1,10 +1,10 @@
-# Solo Website Workshop  
+# Solo Frontend Website Practice  
 
-Welcome to your very first project after finishing the tutorial 🎉  
+Welcome to your first reference-based frontend project 🎉  
 
-You’ll be building a website inspired by the [Frontend Practice Starbucks Project](https://www.frontendpractice.com/projects/starbucks). This is a chance to practice your HTML and CSS skills, and apply everything you’ve learned so far.  
+You’ll be building a website inspired by the [Frontend Practice Starbucks Project](https://www.frontendpractice.com/projects/starbucks). This is a chance to practice your HTML and CSS skills, and apply everything you’ve learned so far on Scrimba! Use this exercise to refresh your learnt skills, find gaps in your understanding and perfect your skills.
 
-👉 Don’t hesitate to ask questions in your class channel — no question is too small!  
+👉 Don’t hesitate to ask questions in your MC class channel — no question is too small!  
 
 ---
 
@@ -41,9 +41,10 @@ You’ll be building a website inspired by the [Frontend Practice Starbucks Proj
 
 ## Tips  
 
+- **Check out the full guide and helping links within the project on frontend practice (there is links to icons, colors are named etc)** You can find it here: https://www.frontendpractice.com/projects/starbucks
 - **Don’t try to make it perfect immediately.** Focus on getting the sections in place first. You can polish details later.  
 - **Google is your friend.** If you’re stuck on a CSS property, look it up!  
-- **Ask questions in the class channel.** Chances are, others are facing the same issue.  
+- **Ask questions in the class channel.** Chances are, others are facing the same issue and you are doing everyone a favour. Also, you will already get to meet your peers even before you`ve started the bootcamp!  
 
 ---
 
