@@ -1,48 +1,54 @@
-# Group website Workshop
+# Solo Website Workshop  
 
-Each team member should tackle a specific section of the website we are going to build (Header, section 1, section 2, and section 3) 
+Welcome to your very first project after finishing the tutorial 🎉  
 
-Start by creating a new branch from the branch of your team (e.j. JUL-2024-1). Name this new branch as the feature you are developing, e.g. header-component, section-1, etc. 
+You’ll be building a website inspired by the [Frontend Practice Starbucks Project](https://www.frontendpractice.com/projects/starbucks). This is a chance to practice your HTML and CSS skills, and apply everything you’ve learned so far.  
 
-In this branch, you will create only the component you are supposed to do inside the index.html file.
+👉 Don’t hesitate to ask questions in your class channel — no question is too small!  
 
-## Helpful commands
+---
 
-Move from one branch to another:
+## Instructions  
 
-`git checkout branch-name`
+1. **Start with the files**  
+   - Open the project folder.  
+   - You’ll be working mainly in `page.html` and `style.css`.  
+   - All the images and resources you need are in the `assets` folder.  
 
-Create a new branch and automatically move to this branch
+2. **Build the structure**  
+   - Create the basic layout of the website in `page.html`.  
+   - Use semantic HTML (`header`, `section`, `footer`, etc.) to organize your page.  
 
-`git checkout -b new-branch-name`
+3. **Style the website**  
+   - In `style.css`, add styles to make your website look like the reference design.  
+   - Focus on layout first (boxes, sections, grids, flexbox), then add colors, fonts, and spacing.  
 
-Step-by-step process to upload changes to GitHub
+4. **Divide the page into sections**  
+   The website can be broken into these parts (see the image in `image-instructions/website-divided-by-sections.png`):  
+   - Header (navigation + logo)  
+   - Section 1 (hero area)  
+   - Section 2 (featured product/offer)  
+   - Section 3 (another product/info section)  
+   - Footer (links, contact, etc.)  
 
-- `git add .`
-- `git commit -m "commit message"`
-- `git push`
+   Tackle them one at a time.  
 
-## Instructions
+5. **Test your work**  
+   - Open `page.html` in your browser to see your progress.  
+   - Keep checking after every small change — this helps you debug and learn faster.  
 
-### Preparation.
+---
 
-Once you have done the fork, choose a member from your team to create an initial HTML and CSS structure. With this create a PR to your team branch and finally each member should do pull to get those changes.
+## Tips  
 
-- Fork the repository.
-- Create a new branch from your team branch.
-- Open the file `page.html`.
-- Each team member should work on one specific feature, and between the team members, decide which feature will be working for each one.
-- Once you finish your feature push your changes to Github and then **open a PR against the branch of your team**.
-- In case of having **conflicts** on code, make sure you and your team colleague get together to fix it.
+- **Don’t try to make it perfect immediately.** Focus on getting the sections in place first. You can polish details later.  
+- **Google is your friend.** If you’re stuck on a CSS property, look it up!  
+- **Ask questions in the class channel.** Chances are, others are facing the same issue.  
 
-The website that we'll creating is the following one from the [Frontend Practice](https://www.frontendpractice.com/projects/starbucks)  Website:
+---
 
-![](./image-instructions/website-project.png)
+## Goal  
 
-We will divide it on sections in the following way:
+By the end of this exercise, you’ll have recreated the Starbucks page layout in your own code. 🎯  
 
-![](./image-instructions/website-divided-by-sections.png)
-
-In case of been a three group members get until the orange section box, otherwise complete each of the sections.
-
-> You will find all the resources that you need on the folder assets.
+This is your first big step into building real websites on your own — have fun with it and don’t worry if it doesn’t look 100% identical. The goal is **practice** and **confidence**.  
