@@ -53,3 +53,13 @@ You’ll be building a website inspired by the [Frontend Practice Starbucks Proj
 By the end of this exercise, you’ll have recreated the Starbucks page layout in your own code. 🎯  
 
 This is your first big step into building real websites on your own — have fun with it and don’t worry if it doesn’t look 100% identical. The goal is **practice** and **confidence**.  
+
+--
+## Too hard?
+
+Maybe start with this project instead : https://www.frontendpractice.com/projects/oh-studio. Instructions are the same but there are fewer sections and the design is less overwhelming.
+--
+## Too easy?
+
+Alright! If you are up for a challenge or just want to get more practice check out this one instead : https://www.frontendpractice.com/projects/nintendo
+
